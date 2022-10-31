@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat&display=swap');
-:root {
-  --main-font: 'Montserrat'
 
+:root {
+  --main-font: 'Montserrat';
+  --second-font: 'Elsie Swash Caps';
+  --gray: #202020;
+  --yellow: #FFCB47;
+  --white: #FFFFFF;
 }
 
 body {
@@ -10,7 +14,7 @@ body {
   font-family: var(--main-font);
   font-size: 16px;
   font-weight: 400;
-  background-image: url('./assets/svgs/backgroudVector.svg');
-  background-repeat: no-repeat;
-  background-position: right top;
+  background-image: url('./assets/svgs/backgroudVector.svg'), url('./assets/images/grayBackground.png');
+  background-repeat: no-repeat, repeat;
+  background-position: right top,center;
 }
