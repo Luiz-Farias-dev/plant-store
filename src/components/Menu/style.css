@@ -9,7 +9,7 @@
   display:flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  background: none;
   width: 80vw;
   height:5em;
 }
