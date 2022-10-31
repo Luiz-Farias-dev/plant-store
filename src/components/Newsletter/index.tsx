@@ -1,26 +1,22 @@
 import React from 'react';
+import * as C from './styled';
 import './style.css';
 
 export default function Newsletter() {
   return (
-    <div className='newsletter-container'>
-      <div className='newsletter'>
-        <p className='newsletter-title-1'>
+    <C.Container>
+      <C.Newsletter>
+        <C.FirstTitle>
           Sua casa com as 
-        </p>
-        <h1 className='newsletter-title-2'>
+        </C.FirstTitle>
+        <C.SecondTitle>
           melhores plantas
-        </h1>
-        <p className='newsletter-content'>
-          Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. 
-          Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.
-        </p>
-        <div className='newsletter-input-container'>
-          <input type='text' placeholder='Insira seu e-mail' className='newsletter-input'/> 
-          <button className='newsletter-button'> Enviar</button>
-        </div>
-      </div>
-     
-    </div>
-  )
+        </C.SecondTitle>
+        <C.InputContainer>
+          <C.Input type='text' placeholder='Insira seu e-mail'/>
+          <C.Button>Enviar</C.Button>
+        </C.InputContainer>
+      </C.Newsletter>
+    </C.Container>
+  );
 }

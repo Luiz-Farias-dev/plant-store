@@ -1,24 +1,24 @@
 import React from 'react'
 import Logo from '../../assets/svgs/casaVerdeLogo.svg?inline';
-import './style.css';
+import * as C from './styled.jsx';
 
 export default function Menu() {
   return (
-    <div className='menu-container'>
-      <div className='menu'>
-        <img src={Logo} alt='Logo do site' className='menu-logo'/>
-        <div className='menu-links-container'>
-          <a className='menu-links' href='#'>Como Fazer</a>
+    <C.Container>
+      <C.Menu>
+        <img src={Logo} alt='Logo da loja' />
+        <C.LinksContainer>
+          <C.Links>Como Fazer</C.Links>
           /
-          <a className='menu-links' href='#'>Ofertas</a>
+          <C.Links>Ofertas</C.Links>
           /
-          <a className='menu-links' href='#'>Depoimentos</a>
+          <C.Links>Depoimentos</C.Links>
           /
-          <a className='menu-links' href='#'>Vídeos</a>
+          <C.Links>Vídeos</C.Links>
           /
-          <a className='menu-links' href='#'>Meu carrinho</a>
-        </div>
-      </div>
-    </div>
+          <C.Links>Meu carrinho</C.Links>
+        </C.LinksContainer>
+      </C.Menu>
+    </C.Container>
   )
 }
