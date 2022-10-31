@@ -1,0 +1,18 @@
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.menu {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  width: 80vw;
+}
+
+.menu-links {
+  text-decoration: none;
+}
