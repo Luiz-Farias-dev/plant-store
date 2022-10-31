@@ -9,10 +9,18 @@
   display:flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: blue;
   width: 80vw;
+  height:5em;
+}
+
+.menu-logo {
+  
 }
 
 .menu-links {
   text-decoration: none;
+  font-family: var(--main-font);
+  color: black;
+  padding: 0 0.5em 0 0.5em;
 }
