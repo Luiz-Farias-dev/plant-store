@@ -1,0 +1,12 @@
+.plant-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .plant-header-links {
+    a {
+      text-decoration: none;
+      color: #111;
+      margin: 0 10px;
+    }
+  }
+}
